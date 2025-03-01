@@ -77,3 +77,6 @@ Simpan, lalu jalankan dengan:
 chmod +x script.sh
 ./script.sh
 ```
+
+## 5. Kesimpulan
+Memahami terminal di Ubuntu sangat penting untuk efisiensi dan fleksibilitas dalam mengelola sistem. Dengan mempelajari perintah dasar, manajemen file, paket, dan pengguna, Anda akan lebih nyaman menggunakan Ubuntu secara profesional.
