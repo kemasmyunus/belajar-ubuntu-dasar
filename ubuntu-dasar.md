@@ -60,3 +60,20 @@ Ubuntu menggunakan **APT (Advanced Package Tool)** untuk mengelola paket.
 - `adduser <nama_user>` → Menambahkan pengguna baru
 - `deluser <nama_user>` → Menghapus pengguna
 - `passwd <nama_user>` → Mengubah password
+
+## 4. Shell Scripting Dasar
+Shell script memungkinkan eksekusi beberapa perintah secara otomatis.
+Buat file script:
+```bash
+nano script.sh
+```
+Isi dengan contoh berikut:
+```bash
+#!/bin/bash
+echo "Hello, Ubuntu!"
+```
+Simpan, lalu jalankan dengan:
+```bash
+chmod +x script.sh
+./script.sh
+```
