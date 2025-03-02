@@ -88,3 +88,50 @@ Ubuntu menggunakan **APT (Advanced Package Tool)** untuk mengelola paket:
 - `groups <nama_user>` → Melihat daftar grup pengguna
 
 ---
+
+## 📝 4. Shell Scripting Dasar
+Shell script memungkinkan eksekusi beberapa perintah secara otomatis.
+
+### 🛠️ 4.1 Membuat Shell Script
+Buat file script:
+```bash
+nano script.sh
+```
+Isi dengan contoh berikut:
+```bash
+#!/bin/bash
+echo "Hello, Ubuntu!"
+```
+Simpan, lalu jalankan dengan:
+```bash
+chmod +x script.sh
+./script.sh
+```
+
+### 🔢 4.2 Variabel dalam Shell Script
+```bash
+#!/bin/bash
+nama="Ubuntu"
+echo "Selamat datang di $nama"
+```
+
+### 🔄 4.3 Penggunaan Kondisi (if-else)
+```bash
+#!/bin/bash
+if [ -f "/etc/passwd" ]; then
+    echo "File passwd ditemukan."
+else
+    echo "File tidak ditemukan."
+fi
+```
+
+### 🔁 4.4 Penggunaan Loop
+```bash
+#!/bin/bash
+for i in {1..5}; do
+    echo "Perulangan ke-$i"
+done
+```
+
+---
+
