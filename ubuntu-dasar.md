@@ -14,6 +14,9 @@ Ubuntu adalah salah satu distribusi Linux berbasis Debian yang populer digunakan
 - 👥 **Dukungan komunitas yang luas**
 - 📦 **Banyak perangkat lunak tersedia melalui repositori resmi**
 
+### 📥 1.2 Instalasi Ubuntu
+Untuk menginstal Ubuntu, Anda dapat mengunduh ISO dari situs resmi Ubuntu dan membuat bootable USB menggunakan alat seperti Rufus atau balenaEtcher. Setelah itu, boot dari USB dan ikuti petunjuk instalasi.
+
 ---
 
 ## 🎯 2. Menggunakan Terminal
@@ -23,7 +26,7 @@ Terminal adalah alat baris perintah yang digunakan untuk berinteraksi dengan sis
 - 🔍 Mencari "Terminal" di menu aplikasi
 - 🔄 Menggunakan `tty` dengan `Ctrl + Alt + F1` sampai `F6`
 
----
+
 
 ## 🔹 3. Perintah Dasar Terminal
 
@@ -87,7 +90,7 @@ Ubuntu menggunakan **APT (Advanced Package Tool)** untuk mengelola paket:
 - `usermod -aG <grup> <nama_user>` → Menambahkan pengguna ke grup
 - `groups <nama_user>` → Melihat daftar grup pengguna
 
----
+
 
 ## 📝 4. Shell Scripting Dasar
 Shell script memungkinkan eksekusi beberapa perintah secara otomatis.
@@ -133,7 +136,7 @@ for i in {1..5}; do
 done
 ```
 
----
+
 
 ## 📌 5. Kesimpulan
 Memahami terminal di Ubuntu sangat penting untuk efisiensi dan fleksibilitas dalam mengelola sistem. Dengan mempelajari perintah dasar, manajemen file, paket, dan pengguna, Anda akan lebih nyaman menggunakan Ubuntu secara profesional. Selain itu, memahami **shell scripting** dapat meningkatkan produktivitas dengan mengotomatisasi berbagai tugas administrasi. 🚀
