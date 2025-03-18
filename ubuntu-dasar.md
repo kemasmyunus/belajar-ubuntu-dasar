@@ -152,7 +152,17 @@ for i in {1..5}; do
 done
 ```
 
+### 📜 4.5 Fungsi dalam Shell Script
+```bash
+#!/bin/bash
+function salam {
+    echo "Selamat datang, $1!"
+}
 
+salam "Ubuntu"
+```
+
+---
 
 ## 📌 5. Kesimpulan
 Memahami terminal di Ubuntu sangat penting untuk efisiensi dan fleksibilitas dalam mengelola sistem. Dengan mempelajari perintah dasar, manajemen file, paket, dan pengguna, Anda akan lebih nyaman menggunakan Ubuntu secara profesional. Selain itu, memahami **shell scripting** dapat meningkatkan produktivitas dengan mengotomatisasi berbagai tugas administrasi. 🚀
