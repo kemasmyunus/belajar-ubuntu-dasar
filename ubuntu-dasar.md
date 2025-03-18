@@ -167,3 +167,8 @@ salam "Ubuntu"
 ## 📌 5. Kesimpulan
 Memahami terminal di Ubuntu sangat penting untuk efisiensi dan fleksibilitas dalam mengelola sistem. Dengan mempelajari perintah dasar, manajemen file, paket, dan pengguna, Anda akan lebih nyaman menggunakan Ubuntu secara profesional. Selain itu, memahami **shell scripting** dapat meningkatkan produktivitas dengan mengotomatisasi berbagai tugas administrasi. 🚀
 
+### 📚 5.1 Sumber Belajar Tambahan
+- [Ubuntu Documentation](https://help.ubuntu.com/)
+- [Linux Command Line Basics](https://linuxcommand.org/)
+- [Bash Scripting Tutorial](https://www.tldp.org/LDP/Bash-Beginners-Guide/html/)
+
