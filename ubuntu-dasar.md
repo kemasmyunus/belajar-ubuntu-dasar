@@ -99,7 +99,14 @@ Ubuntu menggunakan **APT (Advanced Package Tool)** untuk mengelola paket:
 - `usermod -aG <grup> <nama_user>` → Menambahkan pengguna ke grup
 - `groups <nama_user>` → Melihat daftar grup pengguna
 
+### 🗃️ 3.8 Manajemen Disk
+- `df -h` → Menampilkan penggunaan disk
+- `du -sh <direktori>` → Menampilkan ukuran direktori
+- `mount` → Menampilkan daftar mount point
+- `umount <mount_point>` → Melepas mount point
+- `fdisk -l` → Menampilkan partisi disk
 
+---
 
 ## 📝 4. Shell Scripting Dasar
 Shell script memungkinkan eksekusi beberapa perintah secara otomatis.
