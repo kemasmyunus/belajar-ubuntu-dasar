@@ -26,7 +26,16 @@ Terminal adalah alat baris perintah yang digunakan untuk berinteraksi dengan sis
 - 🔍 Mencari "Terminal" di menu aplikasi
 - 🔄 Menggunakan `tty` dengan `Ctrl + Alt + F1` sampai `F6`
 
+### 🔍 2.1 Navigasi di Terminal
+- `pwd` → Menampilkan direktori saat ini
+- `ls -la` → Menampilkan isi direktori secara rinci
+- `cd <direktori>` → Berpindah ke direktori tertentu
+- `cd ..` → Kembali ke direktori sebelumnya
+- `mkdir <nama_direktori>` → Membuat direktori baru
+- `rmdir <nama_direktori>` → Menghapus direktori kosong
+- `rm -r <nama_direktori>` → Menghapus direktori beserta isinya
 
+---
 
 ## 🔹 3. Perintah Dasar Terminal
 
